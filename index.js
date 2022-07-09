@@ -52,7 +52,7 @@ const main = () => {
         <p class="text-justify">${data.desc}</p>
         </div>
         <br>
-        <h2>Yang dibutuhkan : </h2>
+        <h2>What is needed : </h2>
         `;
         $.each(data.needItem, (i, e) => {
             template += `<p>=> ${e.item_name}</p>`
